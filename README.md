@@ -170,7 +170,4 @@ MAIN MENU
 
 ---
 
-## 🎤 Interview Pitch
-
-> Built a Vehicle Service Management System using Java, JDBC, and MySQL with a layered architecture. Implemented CRUD operations and advanced SQL queries for reporting, ensuring security using PreparedStatements and clean separation using DAO pattern.
 
