@@ -1,6 +1,6 @@
 # 🚗 Vehicle Service Management System (VSMS)
 
-A **console-based backend system** simulating a real-world automobile service center, developed during my internship at Hyundai.
+A **console-based backend system** simulating a real-world automobile service center,
 
 ---
 
