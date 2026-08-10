@@ -1,4 +1,4 @@
-package com.hyundai.vsms.util;
+package com.jayesh.vsms.util;
 
 /**
  * ConsoleHelper — Utility class for formatted console output.

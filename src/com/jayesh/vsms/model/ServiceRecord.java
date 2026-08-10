@@ -1,4 +1,4 @@
-package com.hyundai.vsms.model;
+package com.jayesh.vsms.model;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

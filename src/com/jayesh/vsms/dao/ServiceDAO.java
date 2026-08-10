@@ -1,7 +1,7 @@
-package com.hyundai.vsms.dao;
+package com.jayesh.vsms.dao;
 
-import com.hyundai.vsms.model.ServiceRecord;
-import com.hyundai.vsms.util.DBConnection;
+import com.jayesh.vsms.model.ServiceRecord;
+import com.jayesh.vsms.util.DBConnection;
 
 import java.math.BigDecimal;
 import java.sql.*;

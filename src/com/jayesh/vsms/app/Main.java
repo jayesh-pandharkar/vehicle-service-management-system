@@ -1,13 +1,13 @@
-package com.hyundai.vsms.app;
+package com.jayesh.vsms.app;
 
-import com.hyundai.vsms.model.Customer;
-import com.hyundai.vsms.model.ServiceRecord;
-import com.hyundai.vsms.model.Vehicle;
-import com.hyundai.vsms.service.CustomerService;
-import com.hyundai.vsms.service.ServiceRecordService;
-import com.hyundai.vsms.service.VehicleService;
-import com.hyundai.vsms.util.ConsoleHelper;
-import com.hyundai.vsms.util.DBConnection;
+import com.jayesh.vsms.model.Customer;
+import com.jayesh.vsms.model.ServiceRecord;
+import com.jayesh.vsms.model.Vehicle;
+import com.jayesh.vsms.service.CustomerService;
+import com.jayesh.vsms.service.ServiceRecordService;
+import com.jayesh.vsms.service.VehicleService;
+import com.jayesh.vsms.util.ConsoleHelper;
+import com.jayesh.vsms.util.DBConnection;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -42,7 +42,6 @@ public class Main {
     // ── APPLICATION ENTRY POINT ───────────────────────────────────────────────
 
     public static void main(String[] args) {
-        printWelcomeBanner();
 
         boolean running = true;
         while (running) {
@@ -85,18 +84,6 @@ public class Main {
 
     // ── DISPLAY METHODS ───────────────────────────────────────────────────────
 
-    private static void printWelcomeBanner() {
-        System.out.println(ConsoleHelper.CYAN + ConsoleHelper.BOLD);
-        System.out.println("  ██╗  ██╗██╗   ██╗██╗   ██╗███╗   ██╗██████╗  █████╗ ██╗");
-        System.out.println("  ██║  ██║╚██╗ ██╔╝██║   ██║████╗  ██║██╔══██╗██╔══██╗██║");
-        System.out.println("  ███████║ ╚████╔╝ ██║   ██║██╔██╗ ██║██║  ██║███████║██║");
-        System.out.println("  ██╔══██║  ╚██╔╝  ██║   ██║██║╚██╗██║██║  ██║██╔══██║██║");
-        System.out.println("  ██║  ██║   ██║   ╚██████╔╝██║ ╚████║██████╔╝██║  ██║██║");
-        System.out.println("  ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═╝╚═╝");
-        System.out.println(ConsoleHelper.RESET);
-        System.out.println(ConsoleHelper.YELLOW + "       Vehicle Service Management System  v1.0" + ConsoleHelper.RESET);
-        System.out.println(ConsoleHelper.YELLOW + "       Hyundai Motor Company — Nashik Service Center" + ConsoleHelper.RESET);
-    }
 
     private static void printMainMenu() {
         System.out.println("\n" + ConsoleHelper.BOLD + ConsoleHelper.BLUE);

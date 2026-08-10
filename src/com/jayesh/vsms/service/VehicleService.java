@@ -1,9 +1,9 @@
-package com.hyundai.vsms.service;
+package com.jayesh.vsms.service;
 
-import com.hyundai.vsms.dao.CustomerDAO;
-import com.hyundai.vsms.dao.VehicleDAO;
-import com.hyundai.vsms.model.Customer;
-import com.hyundai.vsms.model.Vehicle;
+import com.jayesh.vsms.dao.CustomerDAO;
+import com.jayesh.vsms.dao.VehicleDAO;
+import com.jayesh.vsms.model.Customer;
+import com.jayesh.vsms.model.Vehicle;
 
 import java.util.List;
 

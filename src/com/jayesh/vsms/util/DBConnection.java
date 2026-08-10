@@ -1,4 +1,4 @@
-package com.hyundai.vsms.util;
+package com.jayesh.vsms.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
