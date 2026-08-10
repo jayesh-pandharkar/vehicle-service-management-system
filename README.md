@@ -1,6 +1,6 @@
 # 🚗 Vehicle Service Management System (VSMS)
 
-A **console-based backend system** simulating a real-world automobile service center,
+A **console-based backend system** simulating a real-world automobile service center.
 
 ---
 
