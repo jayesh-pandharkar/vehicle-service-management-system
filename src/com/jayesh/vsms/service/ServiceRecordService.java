@@ -1,9 +1,9 @@
-package com.hyundai.vsms.service;
+package com.jayesh.vsms.service;
 
-import com.hyundai.vsms.dao.ServiceDAO;
-import com.hyundai.vsms.dao.VehicleDAO;
-import com.hyundai.vsms.model.ServiceRecord;
-import com.hyundai.vsms.model.Vehicle;
+import com.jayesh.vsms.dao.ServiceDAO;
+import com.jayesh.vsms.dao.VehicleDAO;
+import com.jayesh.vsms.model.ServiceRecord;
+import com.jayesh.vsms.model.Vehicle;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

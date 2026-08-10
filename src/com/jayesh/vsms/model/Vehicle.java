@@ -1,4 +1,4 @@
-package com.hyundai.vsms.model;
+package com.jayesh.vsms.model;
 
 /**
  * Vehicle — POJO mapping to the 'vehicles' table.
